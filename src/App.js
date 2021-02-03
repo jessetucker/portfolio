@@ -1,22 +1,17 @@
-import logo from './logo.svg';
+import profile from './profile.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={profile} className="App-logo" alt="logo" />
+        <h1>
+          Tucker Web Design
+        </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to my website
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
