@@ -1,11 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import profile from './profile.svg';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import ShoppingList from './ShoppingList';
 
 // const el = <ShoppingList name="Beni" />
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={profile} className="App-logo" alt="logo" />
+        <h1 className="title">
+          Tucker Web Design
+        </h1>
+        <p>
+          Welcome to my website
+        </p>
+      </header>
+    </div>
+  )
+}
 
 ReactDOM.render(
   <App />,
