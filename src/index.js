@@ -14,10 +14,10 @@ function App() {
       <header className="App-header">
         <img src={profile} className="App-logo" alt="logo" />
         <h1 className="title">
-          Tucker Web Design
+          Jesse Tucker III
         </h1>
         <p>
-          Welcome to my website
+          Software Developer
         </p>
       </header>
     </div>
